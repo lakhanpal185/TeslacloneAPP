@@ -7,7 +7,12 @@ export default function App() {
   return (
     <View style={styles.container}>
       
-      <CarItem/>     
+      <CarItem
+        name ={'Model S'}
+        subtitle ={'starting at $45,499 '}
+        subtitleCTA={'Touchless delivery'}
+        image = {require('./assets/images/ModelS.jpeg')}
+      />     
 
       <StatusBar style="auto" />
     </View>
