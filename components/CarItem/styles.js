@@ -1,10 +1,10 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet,Dimensions } from "react-native";
 
 const styles = StyleSheet.create({
 
     Cantainer: {
-        height:"100%",
         width: "100%",
+        height: Dimensions.get('screen').height,
      },
      titles: {
        marginTop:"30%",
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
        color:"#5c5e62",
      },
      subtitleCTA:{
-        textDecorationLine:'underline',
+       textDecorationLine: "underline",
      },
      image: {
        width: "100%",
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
      },
      buttonContainer: {
        position:'absolute',
-       bottom: 50,
+       bottom: 60,
        width: '100%',
      },
 
